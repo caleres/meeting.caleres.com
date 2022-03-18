@@ -74,14 +74,14 @@ header {
   max-width: 635px;
   height: 531px;
   padding: 20px;
-  position: absolute;
-  left: 50%;
+  /* position: absolute;
+  left: 50%; */
   margin-left: -100px;
 }
 
 .textbox-content {
   padding-top: 50px;
-  padding-left: 178px;
+  padding-left: 100px;
 }
 .textbox-content span {
   font-size: 18px;
@@ -94,11 +94,11 @@ header {
   padding-top: 18px;
 }
 .textbox-group h2 {
-  font-size: 38px;
+  font-size: 25px;
   margin: 0;
 }
 .textbox-group p {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -118,6 +118,14 @@ header {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.align-center {
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
@@ -159,13 +167,12 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 260px;
     max-width: none;
   }
 
   .textbox-content {
     padding-left: 0;
-    padding-top: 80px;
+    padding-top: 0;
     text-align: center;
   }
   .textbox-content span {
