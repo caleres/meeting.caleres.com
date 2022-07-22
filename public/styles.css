@@ -45,10 +45,6 @@ header {
   font-size: 48px;
 }
 
-.mobile-img {
-  display: none;
-}
-
 .join-btn {
   color: #526991;
   background-color: #fff;
@@ -121,10 +117,6 @@ header {
 }
 
 @media (max-width: 960px) {
-  .desktop-img {
-    display: none;
-  }
-
   .header {
     font-size: 32px;
     margin-bottom: 0;
@@ -140,7 +132,7 @@ header {
     width: 178px;
   }
 
-  .mobile-img {
+  .left-img {
     display: block;
     position: absolute;
     margin: 0 auto;
