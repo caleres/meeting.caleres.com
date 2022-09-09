@@ -34,9 +34,9 @@ header {
   z-index: 2;
   position: absolute;
   width: 50%;
-  max-width: 544px;
-  right: 50%;
-  top: -59px;
+  max-width: 335px;
+  right: 60%;
+  top: 90px;
 }
 
 .header {
@@ -71,12 +71,12 @@ header {
   height: 531px;
   padding: 20px;
   position: absolute;
-  left: 50%;
+  left: 40%;
   margin-left: -100px;
 }
 
 .textbox-content {
-  padding-top: 50px;
+  padding-top: 65px;
   padding-left: 178px;
 }
 .textbox-content span {
