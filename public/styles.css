@@ -39,7 +39,7 @@ header {
   top: 90px;
 }
 
-.header {
+.header-text {
   margin-top: 0;
   margin-bottom: 70px;
   font-size: 48px;
@@ -116,8 +116,13 @@ header {
   text-transform: uppercase;
 }
 
-@media (max-width: 960px) {
-  .header {
+.logo {
+  width: 20%;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+  .header-text {
     font-size: 32px;
     margin-bottom: 0;
   }
@@ -129,7 +134,8 @@ header {
   }
 
   .logo {
-    width: 178px;
+    width: 55%;
+    margin-bottom: 0;
   }
 
   .left-img {
