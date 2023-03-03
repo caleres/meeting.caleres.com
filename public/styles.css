@@ -30,19 +30,17 @@ header {
   color: #FFF;
 }
 
-.image-container {
-  z-index: 2;
-  position: absolute;
-  width: 50%;
-  max-width: 335px;
-  right: 60%;
-  top: 90px;
-}
-
 .header-text {
   margin-top: 0;
   margin-bottom: 70px;
   font-size: 48px;
+}
+
+.image-container {
+  z-index: 2;
+  position: absolute;
+  right: 56%;
+  top: 90px;
 }
 
 .join-btn {
@@ -60,6 +58,10 @@ header {
 
 .join-btn-label {
   padding-bottom: 18px;
+}
+
+.left-img {
+  width: 400px;
 }
 
 .textbox {
