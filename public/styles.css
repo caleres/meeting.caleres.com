@@ -192,8 +192,14 @@ header {
     top: 260px;
     max-width: none;
   }
+  .united-way .textbox{
+    height: 500px;
+    padding: 60px 25px;
+    top: 280px;
+  }
 
-  .textbox-content {
+
+  .textbox-content, .united-way .textbox-content {
     /* padding-left: 0; */
     /* padding-top: 80px; */
     text-align: center;
