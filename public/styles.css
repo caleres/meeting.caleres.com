@@ -139,12 +139,15 @@ header {
   margin-bottom: 70px;
 }
 /********UNITED WAY STYLES********/
+.united-way .left-img {
+  width: 360px;
+}
 .united-way .textbox-content {
   margin-top: 0;
-  margin-left: 32%;
+  margin-left: 30%;
 }
 .info-content-below-button {
-  margin-top: 40px;
+  margin-top: 36px;
 }
 .info-content-below-button p{
   line-height: 1.4;
