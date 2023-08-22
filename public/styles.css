@@ -62,6 +62,11 @@ header {
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  transition: .2s ease-in;
+}
+.join-btn:hover{
+  background-color:#242248;
+  color: #fff;
 }
 
 .join-btn-label {
@@ -90,10 +95,6 @@ header {
   /* padding-left: 178px; */
   margin-left: 28%;
   margin-top: 15%;
-}
-.united-way .textbox-content {
-  margin-top: 0;
-  margin-left: 32%;
 }
 .textbox-content span {
   font-size: 18px;
@@ -137,7 +138,21 @@ header {
   margin-top: 20px;
   margin-bottom: 70px;
 }
-
+/********UNITED WAY STYLES********/
+.united-way .textbox-content {
+  margin-top: 0;
+  margin-left: 32%;
+}
+.info-content-below-button {
+  margin-top: 40px;
+}
+.info-content-below-button p{
+  line-height: 1.4;
+}
+.united-way .textbox a.join-btn {
+  margin: 0 auto;
+  text-align: center;
+}
 @media (max-width: 768px) {
   .header-text {
     font-size: 32px;
