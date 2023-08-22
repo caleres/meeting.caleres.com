@@ -91,6 +91,10 @@ header {
   margin-left: 28%;
   margin-top: 15%;
 }
+.united-way .textbox-content {
+  margin-top: 0;
+  margin-left: 32%;
+}
 .textbox-content span {
   font-size: 18px;
 }
