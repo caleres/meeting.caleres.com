@@ -135,8 +135,8 @@ header {
 
 .logo {
   width: 20%;
-  margin-top: 20px;
-  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /********UNITED WAY STYLES********/
 .united-way .textbox-content {
@@ -152,6 +152,18 @@ header {
 .united-way .textbox a.join-btn {
   margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 980px) {
+  .united-way .left-img{
+    width: 330px;
+  }
+  .united-way .textbox-content {
+    margin-left: 34%;
+  }
+  .united-way .textbox {
+    height: 600px;
+    padding: 30px;
+  }
 }
 @media (max-width: 768px) {
   .header-text {
